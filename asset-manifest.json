@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pixel-perfect2/static/css/main.dc079e6b.chunk.css",
+    "main.js": "/pixel-perfect2/static/js/main.f1415ede.chunk.js",
+    "main.js.map": "/pixel-perfect2/static/js/main.f1415ede.chunk.js.map",
+    "runtime-main.js": "/pixel-perfect2/static/js/runtime-main.c10b200e.js",
+    "runtime-main.js.map": "/pixel-perfect2/static/js/runtime-main.c10b200e.js.map",
+    "static/js/2.2cd7a1b0.chunk.js": "/pixel-perfect2/static/js/2.2cd7a1b0.chunk.js",
+    "static/js/2.2cd7a1b0.chunk.js.map": "/pixel-perfect2/static/js/2.2cd7a1b0.chunk.js.map",
+    "static/js/3.31a47d2b.chunk.js": "/pixel-perfect2/static/js/3.31a47d2b.chunk.js",
+    "static/js/3.31a47d2b.chunk.js.map": "/pixel-perfect2/static/js/3.31a47d2b.chunk.js.map",
+    "index.html": "/pixel-perfect2/index.html",
+    "static/css/main.dc079e6b.chunk.css.map": "/pixel-perfect2/static/css/main.dc079e6b.chunk.css.map",
+    "static/js/2.2cd7a1b0.chunk.js.LICENSE.txt": "/pixel-perfect2/static/js/2.2cd7a1b0.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/pixel-perfect2/static/media/ready-bg-mobile.6dc46897.jpg",
+    "static/media/menu-item1.7bd94a87.jpg": "/pixel-perfect2/static/media/menu-item1.7bd94a87.jpg",
+    "static/media/menu-item2.81249e77.jpg": "/pixel-perfect2/static/media/menu-item2.81249e77.jpg",
+    "static/media/menu-item3.22eddbf1.jpg": "/pixel-perfect2/static/media/menu-item3.22eddbf1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c10b200e.js",
+    "static/js/2.2cd7a1b0.chunk.js",
+    "static/css/main.dc079e6b.chunk.css",
+    "static/js/main.f1415ede.chunk.js"
+  ]
+}
