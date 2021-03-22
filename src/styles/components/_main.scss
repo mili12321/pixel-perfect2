@@ -1,0 +1,85 @@
+
+.main-card-wrapper,.main-card-wrapper2{
+    position: relative;
+    display: flex;
+    .main-card-img{
+        box-shadow: 0 61px 46px 0px #5a586b7d;
+    }
+}
+@media only screen and (max-width:375px){
+    .header-main{
+        height: 1454px;
+    }
+    .main-card-wrapper,.main-card-wrapper2{
+        flex-direction: column;
+        display: flex;
+        align-items:center ;
+        .main-card-img{
+            box-shadow: 0 61px 46px 0px #5a586b7d;
+            width: 327px;
+            height: 400px;
+            margin-bottom:48px;
+        }
+        .decoration-div-wrapper{
+            display: none;
+        }
+    }
+    .main-card-wrapper{
+        margin-top: -72px;
+        margin-bottom: 108px;
+        .main-card-img{
+            background-image: url(../../img/enjoyable-place-mobile.jpg);
+        }
+    }
+    .main-card-wrapper2{
+        .main-card-img{
+            background-image: url(../../img/locally-sourced-mobile.jpg);
+        }
+        .decoration-lines{
+            display: none;
+        }
+    }
+}
+@media only screen and (min-width:376px){
+    .header-main{
+        height: 1411px;
+    }
+    .main-card-wrapper,.main-card-wrapper2{
+        margin: 0 auto;
+        display: flex;
+        place-items: center;
+        .main-card-img{
+            width: 540px;
+            height: 720px;
+        }
+    }
+    .main-card-wrapper{
+        .main-card-img{
+            margin-right: 125px;
+            margin-top: -41px;
+            margin-bottom: 121px;
+            background-image: url(../../img/enjoyable-place-desktop.jpg);
+        }
+        .decoration-div-wrapper{
+            top: 318px;
+            left: -245px;
+        }
+    }
+    .main-card-wrapper2{
+        flex-direction: row-reverse;
+        position: relative;
+        .decoration-lines{
+            bottom: 282px;
+            right: -109px;
+        }
+        .main-card-img{
+            margin-left: 125px;
+            margin-bottom: -80px;
+            background-image: url(../../img/locally-sourced-desktop.jpg);
+        }
+        .decoration-div-wrapper{
+            bottom: 0;
+            left: 463px;
+        }
+    }
+}

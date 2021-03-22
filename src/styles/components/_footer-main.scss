@@ -1,0 +1,192 @@
+.footer-main{
+    .first-section{
+        .contant-wrapper{
+            display: flex;
+        }
+        .footer-card{
+            box-shadow: 0 61px 46px 0px #5a586b7d;
+        }
+        .footer-content-wrapper{
+            display: flex;
+        }
+        .footer-nav-wrapper{
+            >div{
+                color: #4c4c4c;
+                font-family: "Spartan-SemiBold";
+                font-size: 14px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: 2px;
+                line-height: 28px;
+                text-align: left;
+                text-transform: uppercase;
+                opacity: 0.5;
+                transition: 0.2s;
+                cursor: pointer;
+                &.active{
+                    opacity: 1;
+                }
+                &:hover{
+                    opacity: 1;
+                }
+            }
+
+        }
+
+    }
+    .second-section{
+        display: flex;
+        .contant-wrapper{
+            display: flex;
+            .title{
+                color: #ffffff;
+                font-family: "Spartan-Bold";
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+    }
+}
+.footer-nav-wrapper{
+    >div{
+        position: relative;
+        .decoration-line{
+            position: absolute;
+            height: 1px;
+            background-color: #9e7f66;
+        }
+    }
+}
+
+@media only screen and (max-width:375px){
+    .footer-main{
+        .decoration-div-wrapper, .decoration-lines{
+            display: none;
+        }
+        .first-section{
+            height: 1044px;
+            .contant-wrapper{
+                flex-direction: column;
+                margin-top: 80px;
+            }
+            .footer-card{
+                margin-bottom:48px;
+                width: 326px;
+                height: 400px;
+                background-image: url(../../img/family-gathering-mobile.jpg);
+            }
+            .decoration-div-wrapper{
+                display: none;
+            }
+            .footer-content-wrapper{
+                flex-direction: column-reverse;
+            }
+            .btn-wrapper{
+                margin-top: 38px;
+            }
+            .footer-nav-wrapper{
+                text-align: center;
+                >div{
+                    margin-bottom: 16px;
+                    padding: 5px;
+                    text-align: center;
+                    &:last-child{
+                        margin-bottom: 24px;
+                    }
+                    .decoration-line{
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 48px;
+                    }
+                }
+            }
+        }
+        .second-section{
+            height: 328px;
+            background-image: url(../../img/ready-bg-mobile.jpg);
+            .contant-wrapper{
+                flex-direction: column;
+                .title{
+                    width: 327px;
+                    height: 72px;
+                    font-size: 32px;
+                    letter-spacing: -0.4px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin-bottom: 32px;
+                }
+                
+            }
+        }
+    }
+}
+@media only screen and (min-width:375px){
+    .footer-main{
+        position: relative;
+        .decoration-div-wrapper{
+            top: 0;
+            left: -308px;
+        }
+        .decoration-lines{
+            top: 111px;
+            left: 170px;
+        }
+        .first-section{
+            height: 920px;
+            display: flex;
+            align-items: center;
+            .footer-card{
+                margin-right: 125px;
+                width: 540px;
+                height: 600px;
+                background-image: url(../../img/family-gathering-desktop.jpg);
+            }
+            .footer-content-wrapper{
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer-content{
+                margin-bottom: 78px;
+            }
+            .btn-wrapper{
+                margin-top: 67px;
+
+            }
+            .footer-nav-wrapper{
+                >div{
+                    width: 326px;
+                    text-align: left;
+                    position: relative;
+                    margin-bottom: 12px;
+                    .decoration-line{
+                        position: absolute;
+                        bottom: 50%;
+                        transform: translateY(-50%);
+                        left: -126px;
+                        width: 95px;
+                        height: 1px;
+                        background-color: #9e7f66;
+                    }
+                }
+
+            }
+        }
+        .second-section{
+            background-image: url(../../img/ready-bg-desktop.jpg);
+            height: 240px;
+            .contant-wrapper{
+                height: 100%;
+                justify-content: space-between;
+                align-items: center;      
+                .title{
+                    font-family: "Spartan-Bold";
+                    font-size: 40px;
+                    letter-spacing: -0.5px;
+                    line-height: 56px;
+                    text-align: left;
+                }       
+            }
+        }
+    }
+}

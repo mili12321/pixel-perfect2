@@ -1,0 +1,13 @@
+.decoration-lines{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    .decor-line{
+        width: 160px;
+        height: 6px;
+        background-color: #9e7f66;
+        &:not(:last-child){
+            margin-bottom: 8px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.decoration-div-wrapper{
+    position: absolute;
+    z-index: -1;
+}
+.decoration-div{
+    width: 895px;
+    height: 320px;
+    background-color: #5c6779;
+    opacity: 0.08;
+    &.left{
+        border-radius: 0 100px 0 0;
+    }
+    &.right{
+        border-radius: 100px 0 0 0;
+    }
+
+
+}
