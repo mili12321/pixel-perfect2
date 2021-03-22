@@ -1,8 +1,3 @@
-<img src="https://res.cloudinary.com/dzvebcsrp/image/upload/v1616419465/pixel-desktop_sxeo2w.png" alt="alt text" title="Desktop view">
-
-<img src="https://res.cloudinary.com/dzvebcsrp/image/upload/v1616419493/pixel-mobile_hmudb1.jpg" alt="alt text" title="Mobile view">
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
